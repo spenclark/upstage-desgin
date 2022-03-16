@@ -7,7 +7,7 @@ function NavBar() {
         
       </div>
       <div>
-        +1(250)208-2466
+        <p className=''>+1(250)208-2466</p>
       </div>
     </div>
   )
