@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Static web app
 
-This project is hosted at [Upstage Desgin](https://upstagedesign.ca).
+This project is hosted at [Upstage Design](https://upstagedesign.ca).
 
