@@ -2,7 +2,14 @@ import React from 'react'
 
 function NavBar() {
   return (
-    <div>NavBar</div>
+    <div>
+      <div>
+        
+      </div>
+      <div>
+        +1(250)208-2466
+      </div>
+    </div>
   )
 }
 
