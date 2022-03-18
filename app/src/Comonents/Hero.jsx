@@ -4,7 +4,7 @@ import "../App.css"
 function ClientCard({props}) {
   return (
     <div className='client__card'>
-        <img className='client__img' src={props.img} atl={props.alt}></img>
+        <img className='client__img' src={props.img} atl={props.alt}/>
     </div>
   )
 }
@@ -26,10 +26,10 @@ function Hero() {
     img: "ev-logo.png",
     alt: "engle volkers logo"
   }, {
-    img: "mac-logo.png",
+    img: "mac-logo.jpg",
     alt: "macdonald realty"
   }, {
-    img: "newport-logo.png",
+    img: "new-logo.jpg",
     alt: "newport reality"
   }
 ]
@@ -43,26 +43,27 @@ function Hero() {
   return (
     <div>
       <div className='hero__modal'>
-        <div>
+        <div className='hero__container'>
           <h1>
             Lorem Ipsum, Based as can be
           </h1>
           <p><span>Upstage Design</span> helps realtors and homeowners prepare.</p>
         </div>
-       <div onClick={() => window.location = 'mailto:cynthia@upstagedesign.ca'}>
-         Contact Us
-       </div>
+          <div className="client__parent">
+          <p style={{fontWeight: "600", fontSize: "18px", color: "black", marginBottom: "20px"}}>Trusted By</p>
+          <div className="client__child">
+            {clientImg.map((e) => {
+              return (
+              <ClientCard props={e} />
+            )})}
+          </div>
+        </div>
+        <div onClick={() => window.location = 'mailto:cynthia@upstagedesign.ca'}>
+          Contact Us
+        </div>
       </div>
       <div className='gallery'>
         <img src={photo} className="gallery__item" />
-      </div>
-      <div>
-        <p>Trusted By</p>
-        <div>
-          {clientImg.map((e) => {
-            <ClientCard props={e} />
-          })}
-        </div>
       </div>
     </div>
   )

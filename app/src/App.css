@@ -52,13 +52,14 @@
 /* Hero */
 
 .hero__container {
-    margin: auto
+    margin: auto;
 }
 
 .hero__modal {
     z-index: 10;
     position: absolute;
-    margin: "auto"
+    background-color: white;
+    margin: auto;
 }
 .gallery {
     margin: auto
@@ -70,6 +71,29 @@
     height: auto;
 }
 
+/* client imgs */
+
+.client__parent {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.client__child {
+    display: flex;
+    width: 50%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.client__card {
+
+}
+
+.client__img {
+    height: 50px;
+}
 /* Sliders */
 
 /* Recent pictures */

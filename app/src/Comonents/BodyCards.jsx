@@ -5,6 +5,10 @@ import React from 'react'
 // 2 what we do
 // 3 easy and understand
 
+function Card() {
+
+}
+
 function BodyCards() {
   return (
     <div>BodyCards</div>
