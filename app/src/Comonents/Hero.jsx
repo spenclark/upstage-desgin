@@ -10,16 +10,36 @@ function clientCard({props}) {
 }
 
 function Hero() {
-  const heroImg = {
-    img1: "/curated_portfolio/pan_lv_room.jpg",
-    img2: "/curated_portfolio/pan_bedroom.jpg",
-    img3: "/curated_portfolio/pan_sydney_lv.jpg"
+  const heroImg = [{
+    img: "/curated_portfolio/pan_lv_room.jpg",
+    alt: "Background picture of home"
+  },{
+    img: "/curated_portfolio/pan_bedroom.jpg",
+    alt: "Background picture of home"
+   
+  }, {
+    img: "/curated_portfolio/pan_sydney_lv.jpg",
+    alt: "Background picture of home"
+  }]
+
+  const clientImg = [{
+    img: "",
+    alt: "engle volkers logo"
+  }, {
+    img: "",
+    alt: ""
+  }, {
+    img: "",
+    alt: ""
+  }
+]
+
+  const [photo, setPhoto] = useState(heroImg[0].img)
+
+  function handleSlideshow() {
+
   }
 
-  const [photo, setPhoto] = useState(heroImg.img2)
-
-  useEffect(() => {
-  })
   return (
     <div>
       <div className='hero__modal'>
