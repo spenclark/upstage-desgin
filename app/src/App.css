@@ -1,43 +1,106 @@
 /* Color index
     -#B4182D red
     -#000000 black
-    -c
-
+    -#c4c4c4c
+    -#F6F9FC
 
 
 */
 
+/* General styles */
+::selection {
+    background: #c4c4c4;
+  }
+
+.container {
+    margin: auto;
+}
 
 /* Navbar */
 .navbar {
+    margin: auto;
     width: 100%;
-    max-width: "1200px";
+    max-width: 1200px;
+    padding: 50px 0;
 }
 
 .toolbar {
-    width: "80%";
-    display: "flex";
+    width: 80%;
+    display: flex;
+    margin: auto;
     justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
 }   
 
 .logo {
+    width: 180px;
 
 }
 
 .contact {
+    font-weight: 500;
+    font-size: 16px;
+    color: #B4182D;
 
 }
 
+.contact:hover {
+    /* color: black; */
+    
+}
 /* Hero */
 
 .hero__container {
+    margin: auto
+}
 
+.hero__modal {
+
+}
+.gallery {
+    margin: auto
+}
+
+.gallery__item {
+    width: 100%;
+    height: auto;
 }
 
 /* Sliders */
 
 /* Recent pictures */
 
+/* footer */
+
+.footerDiv {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    width: 100%;
+    font-size: 14px;
+    max-width: 1200px;
+    padding: 10px 0;
+    color: #c4c4c4;
+    justify-content: center;
+}
+
+.trademark {
+    color: inherit
+}
+
+.dividerRoundel {
+    width: 6px;
+    height: 6px;
+    margin: 0 8px;
+    background-color: #c4c4c4;
+    border-radius: 50%;
+
+}
+
+.email {
+    color: inherit
+}
 
 @media (min-width: 768px){
   

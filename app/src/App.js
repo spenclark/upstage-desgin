@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import NavBar from './Comonents/NavBar';
 import Hero from './Comonents/Hero';
@@ -7,10 +6,10 @@ import Footer from './Comonents/Footer';
 
 function App() {
   return (
-    <div className="App">
+    <div className="container">
       <NavBar/>
       <Hero/>
-      <Sliders />
+      {/* <Sliders /> */}
       <Footer />
     </div>
   );
