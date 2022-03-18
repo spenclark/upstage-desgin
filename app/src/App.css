@@ -56,7 +56,9 @@
 }
 
 .hero__modal {
-
+    z-index: 10;
+    position: absolute;
+    margin: "auto"
 }
 .gallery {
     margin: auto
@@ -64,7 +66,7 @@
 
 .gallery__item {
     width: 100%;
-    height: auto;
+    height: 60vh;
 }
 
 /* Sliders */
@@ -102,6 +104,9 @@
     color: inherit
 }
 
-@media (min-width: 768px){
-  
+@media (max-width: 1100px){
+    .gallery__item {
+        width: 100%;
+        height: auto;
+    }
 }

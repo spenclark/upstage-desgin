@@ -9,7 +9,7 @@ function NavBar() {
           <img alt="Upstage Design" src="logo.png" className='logo'/>
         </div>
         <div className='call__btn'>
-          <p className='contact'><span>Call</span>+1(250)208-2466</p>
+          <p className='contact'><span style={{paddingRight: "3px"}}>Call</span>+1(250)208-2466</p>
         </div>
       </div>
     </div>
