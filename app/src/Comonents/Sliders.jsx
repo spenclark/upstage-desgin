@@ -1,6 +1,6 @@
 import React from 'react'
 import Carosel from './Carosel'
-// https://blog.remax.ca/do-staged-homes-sell-faster/
+
 function Sliders() {
   return (
     <div>
