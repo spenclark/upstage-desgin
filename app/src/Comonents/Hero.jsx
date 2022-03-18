@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react'
 import "../App.css"
 
-function clientCard({props}) {
+function ClientCard({props}) {
   return (
     <div className='client__card'>
-        <img className='client__img' src={props.tag} atl={props.alt}></img>
+        <img className='client__img' src={props.img} atl={props.alt}></img>
     </div>
   )
 }
@@ -23,14 +23,14 @@ function Hero() {
   }]
 
   const clientImg = [{
-    img: "",
+    img: "ev-logo.png",
     alt: "engle volkers logo"
   }, {
-    img: "",
-    alt: ""
+    img: "mac-logo.png",
+    alt: "macdonald realty"
   }, {
-    img: "",
-    alt: ""
+    img: "newport-logo.png",
+    alt: "newport reality"
   }
 ]
 
@@ -58,7 +58,11 @@ function Hero() {
       </div>
       <div>
         <p>Trusted By</p>
-
+        <div>
+          {clientImg.map((e) => {
+            <ClientCard props={e} />
+          })}
+        </div>
       </div>
     </div>
   )
