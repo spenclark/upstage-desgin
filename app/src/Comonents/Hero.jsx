@@ -25,9 +25,9 @@ function Hero() {
       <div className='hero__modal'>
         <div className='hero__container'>
           <h1>
-            Lorem Ipsum, Based as can be
+            
           </h1>
-          <p><span>Upstage Design</span> helps realtors and homeowners prepare.</p>
+          <p><span>Upstage Design</span> will help .</p>
         </div>
         <div onClick={() => window.location = 'mailto:cynthia@upstagedesign.ca'}>
           Contact Us
