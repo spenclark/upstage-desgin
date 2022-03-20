@@ -6,15 +6,15 @@ import React from 'react'
 // 3 easy and understand
 
 const data = [{
-  title: "",
+  title: "How it works",
   text: "",
   photos: ["","",""],
 },{
-  title: "",
+  title: "How we help",
   text: "",
   photos: ["","",""],
 },{
-  title: "",
+  title: "Simple",
   text: "",
   photos: ["","",""],
 }]
@@ -33,17 +33,23 @@ function BodyCards() {
   return (
     <div>
       <div>
-
-      </div>
-      <div>
         {data.map((e) => {
           return (
-            <div> 
+            <div>
               <div>
-                {dataphotos.map((e) => {
-
-                })}
+                {e.title}
               </div>
+              <div>
+                <div>
+                  {e.photos.map((e) => {
+
+                  })}
+                </div>
+                <div>
+
+                </div>
+              </div>
+  
             </div>
           )
         })}
