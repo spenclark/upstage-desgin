@@ -24,12 +24,14 @@ function TrustedBy() {
 
   return (
     <div className="client__parent">
-        <p style={{fontWeight: "600", fontSize: "18px", color: "black", marginBottom: "20px"}}>Trusted By</p>
             <div className="client__child">
-            {clientImg.map((e) => {
-                return (
-                <ClientCard props={e} />
-            )})}
+              <div>
+              <p style={{fontWeight: "600", margin: "auto", fontSize: "24px", color: "#B4182D"}}>Trusted by</p>
+              </div>
+              {clientImg.map((e) => {
+                  return (
+                  <ClientCard props={e} />
+              )})}
         </div>
   </div>
   )

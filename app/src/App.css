@@ -76,15 +76,17 @@
 .client__parent {
     display: flex;
     flex-direction: column;
-
+    width: 60%;
+    margin: auto;
+    padding: 40px 0;
 }
 
 
 .client__child {
     display: flex;
-    width: 50%;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 
 .client__card {
@@ -92,7 +94,8 @@
 }
 
 .client__img {
-    height: 50px;
+    height: 105px;
+    width: auto;
 }
 
 /* Sliders */

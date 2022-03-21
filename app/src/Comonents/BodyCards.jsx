@@ -7,7 +7,7 @@ import React from 'react'
 
 const data = [{
   title: "How it works",
-  text: "",
+  text: ``,
   photos: ["","",""],
 },{
   title: "How we help",
