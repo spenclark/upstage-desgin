@@ -181,17 +181,19 @@
 .footerDiv {
     display: flex;
     margin: auto;
-    align-items: center;
-    width: 100%;
+    width: 60%;
     font-size: 14px;
     max-width: 1200px;
     padding: 10px 0;
     color: #c4c4c4;
-    justify-content: center;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
 .trademark {
-    color: inherit
+    color: grey;
+    display: flex;
+    justify-content: center;
 }
 
 .dividerRoundel {
@@ -204,7 +206,7 @@
 }
 
 .email {
-    color: inherit
+    color: grey
 }
 
 @media (max-width: 1600px){

@@ -1,20 +1,4 @@
 import React from 'react'
-// https://blog.remax.ca/do-staged-homes-sell-faster/
-
-// 1 why stage
-// 2 what we do
-// 3 easy and understand
-
-
-function transitonPhoto() {
-
-}
-
-function Card() {
-
-}
-
-
 
 function BodyCards() {
 
@@ -34,7 +18,7 @@ function BodyCards() {
           </div>
           <div className='slide__text'>
             <p>
-                      According to industry research staged homes spend 73 per cent less time on the market and sell for 5% to 25% above listing price. <a href="https://blog.remax.ca/do-staged-homes-sell-faster/" style={{color: "#B4182D"}}>See Report.</a>
+                      According to industry research staged homes spend<span style={{fontWeight: "600"}}> 73 per cent less time on the market and sell for 5% to 25% above listing price.</span> <a href="https://blog.remax.ca/do-staged-homes-sell-faster/" style={{color: "#B4182D"}}>See Report.</a>
             </p>
           </div>
         </div>
@@ -51,7 +35,7 @@ function BodyCards() {
           </div>
           <div className='slide__text'>
             <p>
-              Upstage Design transforms property by reorganizing and restructuing spaces by blending the clients inventory and our own. We work hard to make sure that the property is ready for the market.
+              Upstage Design transforms property by reorganizing and restructuing spaces by blending the clients inventory and our own. <span style={{fontWeight: "600"}}>We work hard to make sure that the property is ready for the market.</span>
             </p>
           </div>
         </div>
