@@ -13,10 +13,10 @@ function Sliders() {
         <img src="/curated_portfolio/prpl_brm.jpg" alt="carousel img" className='gallery_img' ></img>
         <img src="/curated_portfolio/ktch_light.jpg" alt="carousel img" className='gallery_img' ></img>
         <img src="/curated_portfolio/yellow_room.jpg" alt="carousel img" className='gallery_img' ></img>
-        <img src="/curated_portfolio/pan_bedroom.jpg" alt="carousel img" className='gallery_img' ></img>
+        <img src="/curated_portfolio/pan_sydney_lv.jpg" alt="carousel img" className='gallery_img' ></img>
         <img src="/curated_portfolio/lv_contra.jpg" alt="carousel img" className='gallery_img' ></img>
         <img src="/curated_portfolio/ob_bath.jpg" alt="carousel img" className='gallery_img' ></img>
-        <img src="/curated_portfolio/pan_sydney_lv.jpg" alt="carousel img" className='gallery_img' ></img>
+        <img src="/curated_portfolio/pan_bedroom.jpg" alt="carousel img" className='gallery_img' ></img>
         <img src="/curated_portfolio/office_square.jpg" alt="carousel img" className='gallery_img' ></img>
         <img src="/curated_portfolio/ob_bath.jpg" alt="carousel img" className='gallery_img' ></img>
         <img src="/curated_portfolio/nv_bath.jpg" alt="carousel img" className='gallery_img' ></img>
