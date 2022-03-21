@@ -136,23 +136,42 @@
 /* Sliders */
 
 .slide__container {
-    
+    margin: 40px auto;
+    width: 60%;
 }
 
 .slide__div {
-
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
 }
 
-.slide__img {
+.slide__div__inverted {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
 
+}
+.slide__img {
+    width: 420px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.slide__content {
+    width: 50%;
 }
 
 .slide__title {
-
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 20px;
 }
 
 .slide__text {
-
+    
 }
 
 /* Recent pictures */
