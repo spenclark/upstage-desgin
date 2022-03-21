@@ -619,11 +619,13 @@
         align-items: center;
         justify-content: space-between;
         flex-direction: column-reverse;
+        margin-bottom: 30px;
     }
     
     .slide__div__inverted {
         display: flex;
         flex-direction: column-reverse;
+        margin-bottom: 30px;
         align-items: center;
         justify-content: space-between;
     
