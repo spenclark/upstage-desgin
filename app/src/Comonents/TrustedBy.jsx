@@ -25,8 +25,8 @@ function TrustedBy() {
   return (
     <div className="client__parent">
             <div className="client__child">
-              <div>
-              <p style={{fontWeight: "600", margin: "auto", fontSize: "24px", color: "#B4182D"}}>Trusted by</p>
+              <div style={{display: "flex", justifyContent: 'center'}}>
+                <p style={{fontWeight: "600", textAlign: "center", fontSize: "24px", color: "#B4182D"}}>Trusted by</p>
               </div>
               {clientImg.map((e) => {
                   return (

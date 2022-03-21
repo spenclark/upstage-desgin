@@ -40,7 +40,7 @@
 
 .contact {
     font-weight: 500;
-    font-size: 16px;
+    font-size: 18px;
     color: #B4182D;
 
 }
@@ -53,13 +53,48 @@
 
 .hero__container {
     margin: auto;
+    margin-bottom: 20px;
 }
 
 .hero__modal {
     z-index: 10;
+    border-radius: 8px;
     position: absolute;
     background-color: white;
+    padding: 20px;
+    width: 40%;
+    min-width: 450px;
+    left: -50%;
+    right: -50%;
+    top: 25%;
     margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.contactBtn {
+    display: flex;
+    justify-content: center;
+    background: #B4182D;
+    padding: 18px 42px;
+    margin: auto;
+    border: 2px solid #B4182D;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    border-radius: 3px;
+}
+
+.contactBtn:hover {
+    /* color: black; */
+    border: 2px solid #B4182D;
+    background: inherit;
+    transition-delay: 100ms;
+    color: #B4182D;
+    box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+
 }
 .gallery {
     margin: auto
@@ -100,6 +135,26 @@
 
 /* Sliders */
 
+.slide__container {
+    
+}
+
+.slide__div {
+
+}
+
+.slide__img {
+
+}
+
+.slide__title {
+
+}
+
+.slide__text {
+
+}
+
 /* Recent pictures */
 
 /* footer */
@@ -133,8 +188,13 @@
     color: inherit
 }
 
+@media (max-width: 1600px){
+
+}
+
 @media (max-width: 780px){
     .gallery__item {
        display: none;
     }
 }
+

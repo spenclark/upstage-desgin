@@ -24,12 +24,12 @@ function Hero() {
     <div>
       <div className='hero__modal'>
         <div className='hero__container'>
-          <h1>
-            
+          <h1 style={{fontSize: "30px", color: "black", padding: "15px 30px"}}>
+            Home staging designed to make you money
           </h1>
-          <p><span>Upstage Design</span> will help .</p>
+          <p style={{fontSize: "16px", padding: "0px 70px"}}>Upstage Design helps homeowners and realtors across Victoria get higher asking prices, in less time.</p>
         </div>
-        <div onClick={() => window.location = 'mailto:cynthia@upstagedesign.ca'}>
+        <div className="contactBtn" onClick={() => window.location = 'mailto:cynthia@upstagedesign.ca'}>
           Contact Us
         </div>
       </div>

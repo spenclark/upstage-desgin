@@ -18,7 +18,7 @@ function Footer() {
         ©
         </span>Upstage
         </div>
-
+    {/* Victoria BC */}
         {/* <div className="dividerRoundel">
           
         </div>
