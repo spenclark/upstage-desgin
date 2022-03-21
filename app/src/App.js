@@ -15,10 +15,10 @@ function App() {
       <Hero/>
       <TrustedBy />
       <BodyCards />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <div style={{width: "100%", background: "#e6e6e6"}}>
       <Sliders />
-      <ContactBanner />
+      {/* <ContactBanner /> */}
       <Footer />
       </div>
     </div>

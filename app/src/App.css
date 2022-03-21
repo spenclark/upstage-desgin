@@ -176,6 +176,30 @@
 
 /* Recent pictures */
 
+.slider__parent {
+    width: 60%;
+    padding: 40px 0;
+    margin: auto;
+    
+}
+.slider__title {
+    font-size: 24px;
+}
+.slider__gallery {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+}
+
+.gallery_img {
+    width: 420px;
+    border-radius: 3px;
+    padding-Right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
 /* footer */
 
 .footerDiv {

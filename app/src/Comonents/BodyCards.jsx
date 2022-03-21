@@ -18,7 +18,7 @@ function BodyCards() {
           </div>
           <div className='slide__text'>
             <p>
-                      According to industry research staged homes spend<span style={{fontWeight: "600"}}> 73 per cent less time on the market and sell for 5% to 25% above listing price.</span> <a href="https://blog.remax.ca/do-staged-homes-sell-faster/" style={{color: "#B4182D"}}>See Report.</a>
+                      According to industry research staged homes spend<span style={{fontWeight: "600"}}>73% less</span> time on the market and sell for <span style={{fontWeight: "600"}}>5% to 25% above</span> listing price. <a href="https://blog.remax.ca/do-staged-homes-sell-faster/" style={{color: "#B4182D"}}>See Report.</a>
             </p>
           </div>
         </div>
