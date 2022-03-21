@@ -66,6 +66,7 @@
     left: -50%;
     right: -50%;
     top: 25%;
+    bottom: -25;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -199,7 +200,8 @@
 }
 
 .gallery_img {
-    width: 420px;
+    width: auto;
+    height: 420px;
     border-radius: 3px;
     padding-Right: 30px;
     padding-top: 30px;
@@ -433,7 +435,8 @@
     }
     
     .gallery_img {
-        width: 320px;
+        width: auto;
+        height: 240px;
         border-radius: 3px;
         padding-Right: 30px;
         padding-top: 30px;
@@ -665,11 +668,12 @@
     }
     
     .gallery_img {
-        width: 180px;
+        width: auto;
+        height: 180px;
         border-radius: 3px;
-        padding-Right: 30px;
-        padding-top: 30px;
-        padding-bottom: 30px;
+        padding-Right: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
     
     }
     

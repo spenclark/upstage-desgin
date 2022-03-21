@@ -14,7 +14,7 @@ function Hero() {
     alt: "Background picture of home"
   }]
 
-  const [photo, setPhoto] = useState(heroImg[0].img)
+  const [photo, setPhoto] = useState(heroImg[1].img)
 
   function handleSlideshow() {
 
@@ -25,9 +25,9 @@ function Hero() {
       <div className='hero__modal'>
         <div className='hero__container'>
           <h1 className='hero_title'>
-            Home staging designed to make you money
+            Staging consultations designed to make you money
           </h1>
-          <p className='hero_subtext'>Upstage Design helps homeowners and realtors across Victoria get higher asking prices, in less time.</p>
+          <p className='hero_subtext'>Upstage Design helps homeowners and realtors across Victoria get higher asking prices in less time.</p>
         </div>
         <div className="contactBtn" onClick={() => window.location = 'mailto:cynthia@upstagedesign.ca'}>
           Contact Us
