@@ -14,7 +14,7 @@ function Hero() {
     alt: "Background picture of home"
   }]
 
-  const [photo, setPhoto] = useState(heroImg[1].img)
+  const [photo, setPhoto] = useState(heroImg[0].img)
 
   function handleSlideshow() {
 
