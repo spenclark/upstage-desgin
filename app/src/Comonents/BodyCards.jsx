@@ -54,7 +54,7 @@ function BodyCards() {
           </div>
           <div className='slide__text'>
             <p>
-              Upstage Design has working with all types of clients. We know how to use what is infront of us and be respectful of people property and space.
+              Upstage Design has experience working with all types of clients. We know how to use what is infront of us and be respectful of people property and space.
             </p>
           </div>
         </div>
