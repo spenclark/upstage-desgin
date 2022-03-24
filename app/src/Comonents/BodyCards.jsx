@@ -37,7 +37,7 @@ function BodyCards() {
           </div>
           <div className='slide__text'>
             <p>
-              Upstage Design transforms property by reorganizing and restructuing spaces by blending the clients inventory and our own. <span style={{fontWeight: "600"}}>We work hard to make sure that the property is ready for the market.</span>
+              Upstage Design reorganizes and restructures properties into spaces buyers love. Blending the clients inventory and our own. <span style={{fontWeight: "600"}}>We make sure that the property is ready for the market.</span>
             </p>
           </div>
         </div>
